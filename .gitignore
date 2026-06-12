@@ -1,2 +1,9 @@
 .venv
 image.png
+*.pyd
+*.exe
+*.o
+__pycache__
+build/
+dist/
+*.egg-info/

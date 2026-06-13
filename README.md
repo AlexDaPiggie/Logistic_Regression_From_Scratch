@@ -1,6 +1,6 @@
 # Logistic Regression From Scratch 
 ## Overview 
-The project's goal is to build a Machine Learning Library from scratch in C++, using the algorithm Logistic Regression. This Machine Learning model is able to do binary classification tasks, basically mean answering a Yes - No question (e.g. a person is sick or not). 
+The project's goal is to build a Machine Learning Library from scratch in C++, using the algorithm Logistic Regression. This Machine Learning model is able to do binary classification tasks, basically mean answering a Yes - No question (e.g. predict a person is sick or not). 
 
 ## Files
 ```text

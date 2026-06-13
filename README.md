@@ -57,7 +57,8 @@ The main logic of the library lies in the `fit` function, using gradient descent
 
 ## Create library module 
 * Download the required tools from [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) 
-* Use command "**pip install --no-build-isolation .**"": to create the modules 
+
+* Use command "**pip install --no-build-isolation .** ": to create the modules 
 #
 <p align = 'left'>
     <img src = 'Images/Modules.gif' width = 70% alt = 'dataset'>

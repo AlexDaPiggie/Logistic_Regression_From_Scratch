@@ -49,7 +49,7 @@ flowchart LR
 The main logic of the library lies in the `fit` function, using gradient descent to minimize the `entropy loss function`. 
 
 <p align = 'left'>
-    <img src = 'Images/Main_Logic.png' width = 48% alt = 'main logic'>
+    <img src = 'Images/Main_Logic.png' width = 68% alt = 'main logic'>
 </p>
 
 
@@ -66,6 +66,6 @@ The main logic of the library lies in the `fit` function, using gradient descent
 ## Performance 
 The library achieves reasonable performance on `breast cancer` dataset: 
 <p align = 'left'>
-    <img src = 'Images/Dataset.png' width = 43% alt = 'dataset'>
-    <img src = 'Images/Performance.png' width = 48% alt = 'performance'>
+    <img src = 'Images/Dataset.png' width = 53% alt = 'dataset'>
+    <img src = 'Images/Performance.png' width = 58% alt = 'performance'>
 </p>

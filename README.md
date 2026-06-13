@@ -15,7 +15,7 @@ Logisitc Regression Library
 |
 |--Prototype library structure:
 |
-|  |--Loss_Function.png  - The loss function of Logistic Regression
+|  |--Images/Loss_Function.png  - The loss function of Logistic Regression
 |  |--LR_Prototype.py    - Prototype the library in Python with supported function
 |
 |--Validate the library: 
@@ -45,17 +45,27 @@ flowchart LR
     bindings --> setup --> notebook
 ```
 
+## Main Logic 
+The main logic of the library lies in the `fit` function, using gradient descent to minimize the `entropy loss function`. 
+
+<p align = 'left'>
+    <img src = 'Images/Main_Logic.png' width = 48% alt = 'main logic'>
+</p>
+
+
+(fit function in file `LR_Prototype.py`)
+
 ## Create library module 
 * Download the required tools from [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) 
 * Use command "**pip install --no-build-isolation .**"": to create the modules 
 #
-<p align = 'center'>
+<p align = 'left'>
     <img src = 'Images/Modules.gif' width = 70% alt = 'dataset'>
 </p>
 
 ## Performance 
 The library achieves reasonable performance on `breast cancer` dataset: 
-<p align = 'center'>
+<p align = 'left'>
     <img src = 'Images/Dataset.png' width = 43% alt = 'dataset'>
     <img src = 'Images/Performance.png' width = 48% alt = 'performance'>
 </p>

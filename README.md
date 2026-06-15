@@ -56,7 +56,7 @@ The main logic of the library lies in the `fit` function, using Gradient Descent
 ## Prediction Process
 
 ```mermaid 
-flowchart LR
+flowchart TD
     train["Train model <br/> (Intake data X & label y)"] 
     grad["Compute Theta <br/> (Apply gradient descent on loss function)"]
     proba["Compute the probability <br/> (Apply sigmoid function)"]

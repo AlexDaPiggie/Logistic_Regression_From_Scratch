@@ -57,10 +57,10 @@ The main logic of the library lies in the `fit` function, using Gradient Descent
 
 ```mermaid 
 flowchart LR
-    train["Train model <br/> intake data X & label y"] 
-    grad["Compute Theta <br/> Apply gradient descent on loss function"]
-    proba["Compute the probability <br/> Apply sigmoid function"]
-    predict["Predict<br/> Apply threshold on probability"]
+    train["Train model <br/> (Intake data X & label y)"] 
+    grad["Compute Theta <br/> (Apply gradient descent on loss function)"]
+    proba["Compute the probability <br/> (Apply sigmoid function)"]
+    predict["Predict<br/> (Apply threshold on probability)"]
     
     train --> grad --> proba --> predict 
 ```

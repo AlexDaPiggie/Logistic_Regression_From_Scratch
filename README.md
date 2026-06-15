@@ -46,14 +46,33 @@ flowchart LR
 ```
 
 ## Main Logic 
-The main logic of the library lies in the `fit` function, using gradient descent to minimize the `entropy loss function`. 
+The main logic of the library lies in the `fit` function, using Gradient Descent to minimize the `entropy loss function`. 
 
 <p align = 'left'>
     <img src = 'Images/Main_Logic.png' width = 68% alt = 'main logic'>
 </p>
-
-
 (fit function in file `LR_Prototype.py`)
+
+## Prediction Process
+
+```mermaid 
+flowchart LR
+    train["Train model <br/> intake data X & label y"] 
+    grad["Compute Theta <br/> Apply gradient descent on loss function"]
+    proba["Compute the probability <br/> Apply sigmoid function"]
+    predict["Predict<br/> Apply threshold on probability"]
+    
+    train --> grad --> proba --> predict 
+```
+
+### Detailed Implementation: 
+
+<p>
+    <img src = "Images/fit.png" width = 48% alt = 'fit'>
+    <img src = "Images/cal_gradient.png" width = 48% alt = 'grad'>
+    <img src = "Images/predict_proba.png" width = 48% alt = 'proba'>
+    <img src = "Images/predict.png" width = 48% alt = 'predict'>
+</p>
 
 ## Create library module 
 * Download the required tools from [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) 
